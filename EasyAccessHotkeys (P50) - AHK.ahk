@@ -8,6 +8,35 @@ SetTitleMatchMode, 2
 SetCapsLockState, AlwaysOff
 #If GetKeyState("CapsLock", "P")
     ; ============================ File/Folder ============================
+    +i Up::  ; Open General.
+        path := "C:\Users\Admin\Documents\Yx\1 General"
+        OpenTodayPath(path)
+        Return
+    +l Up::  ; Open Language Resources.
+        path := "C:\Users\Admin\Documents\Yx\2 Language Resources"
+        windowTitle := "12 Language Cottage"
+        OpenTodayPath(path)
+        Return
+    +p Up::  ; Open Coding Tools.
+        path := "C:\Users\Admin\Documents\Yx\3 Coding Tools"
+        OpenTodayPath(path)
+        Return
+    +k Up::  ; Open Art Tools.
+        path := "C:\Users\Admin\Documents\Yx\4 Art Tools"
+        OpenTodayPath(path)
+        Return
+    +h Up::  ; Open Library of Wisdom.
+        path := "C:\Users\Admin\Documents\Yx\5 Library of Wisdom" 
+        OpenTodayPath(path)
+        Return
+    +m Up::  ; Open Daw.
+        path := "C:\Users\Admin\Documents\Yx\6 Daw" 
+        OpenTodayPath(path)
+        Return
+    +y Up::  ; Open Akashic Records.
+        path := "C:\Users\Admin\Documents\Yx\7 Akashic Records" 
+        OpenTodayPath(path)
+        Return
     i Up::  ; Open Life.
         path := "C:\Users\Admin\Documents\Yx\11 Life"
         OpenTodayPath(path)
@@ -47,7 +76,7 @@ SetCapsLockState, AlwaysOff
         windowTitle := "22 Precious Moments"
         OpenPath(path, windowTitle)
         Return
-    +i Up::  ; Open Life.txt.
+    +f Up::  ; Open Life.txt.
         path := "C:\Users\Admin\Documents\Yx\Life.txt"
         windowTitle := "Life.txt - Notepad"
         OpenPath(path, windowTitle)
