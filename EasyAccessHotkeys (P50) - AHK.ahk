@@ -10,32 +10,38 @@ SetCapsLockState, AlwaysOff
     ; ============================ File/Folder ============================
     +i Up::  ; Open General.
         path := "C:\Users\Admin\Documents\Yx\1 General"
-        OpenTodayPath(path)
+        windowTitle := "1 General"
+        OpenPath(path, windowTitle)
         Return
     +l Up::  ; Open Language Resources.
         path := "C:\Users\Admin\Documents\Yx\2 Language Resources"
         windowTitle := "12 Language Cottage"
-        OpenTodayPath(path)
+        OpenPath(path, windowTitle)
         Return
     +p Up::  ; Open Coding Tools.
         path := "C:\Users\Admin\Documents\Yx\3 Coding Tools"
-        OpenTodayPath(path)
+        windowTitle := "3 Coding Tools"
+        OpenPath(path, windowTitle)
         Return
     +k Up::  ; Open Art Tools.
         path := "C:\Users\Admin\Documents\Yx\4 Art Tools"
-        OpenTodayPath(path)
+        windowTitle := "4 Art Tools"
+        OpenPath(path, windowTitle)
         Return
     +h Up::  ; Open Library of Wisdom.
         path := "C:\Users\Admin\Documents\Yx\5 Library of Wisdom" 
-        OpenTodayPath(path)
+        windowTitle := "5 Library of Wisdom"
+        OpenPath(path, windowTitle)
         Return
     +m Up::  ; Open Daw.
         path := "C:\Users\Admin\Documents\Yx\6 Daw" 
-        OpenTodayPath(path)
+        windowTitle := "6 Daw"
+        OpenPath(path, windowTitle)
         Return
     +y Up::  ; Open Akashic Records.
         path := "C:\Users\Admin\Documents\Yx\7 Akashic Records" 
-        OpenTodayPath(path)
+        windowTitle := "7 Akashic Records"
+        OpenPath(path, windowTitle)
         Return
     i Up::  ; Open Life.
         path := "C:\Users\Admin\Documents\Yx\11 Life"
@@ -43,7 +49,6 @@ SetCapsLockState, AlwaysOff
         Return
     l Up::  ; Open Language Cottage.
         path := "C:\Users\Admin\Documents\Yx\12 Language Cottage"
-        windowTitle := "12 Language Cottage"
         OpenTodayPath(path)
         Return
     p Up::  ; Open Programming Life.
